@@ -13,7 +13,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'https://your-frontend-url.vercel.app'
+    'https://sharehub-opal.vercel.app'
   ]
 }));
 app.use(express.json());
